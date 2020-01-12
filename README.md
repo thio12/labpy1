@@ -3,7 +3,9 @@
 Instalasi Git
 
 •	Download Git, buka website resminya Git (git-scm.com).
+
 •	Kemudian unduh Git sesuai dengan arsitektur komputer kita. Kalau menggunakan 64bit, unduh yang 64bit. Begitu juga kalau menggunakan 32bit.
+
 •	Selamat, Git sudah terinstal di Windows. Untuk mencobanya, silahkan buka CMD atau PowerShell, kemudian ketik perintah 
 
 ![image](https://user-images.githubusercontent.com/56479448/72219140-4d25f380-3575-11ea-9ed9-06d301876c9c.png)
@@ -13,8 +15,11 @@ Instalasi Git
 Menambahkan Global Config
 
 •	Pada saat pertama kali menggunakan git, perlu dilakukan konfigurasi user.name dan user.email
+
 •	konfigurasi ini bisa dilakukan untuk global repostiry atau individual repository.
+
 •	apabila belum dilakukan konfigurasi, akan mengakibatkan terjadi kegagalan saat menjalankan perintah git commit
+
 •	Config Global Repository
 
 ![image](https://user-images.githubusercontent.com/56479448/72219151-78104780-3575-11ea-9969-3febf9819850.png)
@@ -24,12 +29,15 @@ Menambahkan Global Config
 Membuat Repository Local
 
 •	Buka direktory aktif, misal: d:\labs_pemrograman2 (buka menggunakan Windows Explorer)
+
 •	klik kanan pada direktory aktif tersebut, dan pilih menu Git Bash, sehingga muncul git bash commad
+
 •	Buat direktory project praktikum pertama dengan nama latihan2
 
 ![image](https://user-images.githubusercontent.com/56479448/72219171-a5f58c00-3575-11ea-8212-50f1a7522c43.png)
 
 •	Sehingga terbentuk satu direktori baru dibawahnya, selanjutnya masuk kedalam direktori tersebut dengan perintah cd (change directory)
+
 •	direktory aktif menjadi: d:\labs_pemrograman2\latihan2
 
 Membuat Repository Local
@@ -39,11 +47,13 @@ Membuat Repository Local
 ![image](https://user-images.githubusercontent.com/56479448/72219178-b73e9880-3575-11ea-8dd3-f8644fc9fe1f.png)
 
 •	Repository baru berhasil di inisialisasi, dengan terbentuknya satu direktori hidden dengan nama .git
+
 •	Pada direktori tersebut, semua perubahan pada working directory akan disimpan.
 
 Menambahkan File baru pada repository
 
 •	Untuk membuat file dapat menggunakan text editor, lalu menyimpan filenya pada direktori aktif (repository)
+
 •	disini kita akan coba buat satu file bernama README2.md (text file)
 
 ![image](https://user-images.githubusercontent.com/56479448/72219186-cb829580-3575-11ea-8ef0-4ecac46d5ba9.png)
@@ -75,8 +85,11 @@ Commit (Menyimpan perubahan ke database)
 Membuat repository server
 
 •	Server reopsitory yang akan kita gunakan adalah http://github.com
+
 •	Anda harus membuat akun terlebih dahulu. 
+
 •	Pada laman github, klik tombol start a project, atau
+
 •	Dari menu (icon +) klik New Repository
 
 ![image](https://user-images.githubusercontent.com/56479448/72219232-5794bd00-3576-11ea-83e3-1b57b79c19b7.png)
@@ -84,6 +97,7 @@ Membuat repository server
 Membuat repository server
 
 •	Isi nama repositorynya, misal: Pemrograman
+
 •	lalu klik tombol Create repository
 
 ![image](https://user-images.githubusercontent.com/56479448/72219242-7004d780-3576-11ea-9e8c-0e2c107ac0b9.png)
@@ -91,6 +105,7 @@ Membuat repository server
 Menambahkan Remote Repository
 
 •	Remote Repository merupakan repository server yang akan digunakan untuk menyimpan setiap perubahan pada local repository, sehingga dapat diakses oleh banyak user.
+
 •	Untuk menambahkan remote repository server, gunakan perintah git remote add origin [url]
 
 ![image](https://user-images.githubusercontent.com/56479448/72219246-83b03e00-3576-11ea-82e4-d9e31ff91f95.png)
@@ -108,6 +123,7 @@ Push (Mengirim perubahan ke server)
 Melihat hasilnya pada server repository
 
 •	Buka laman github.com, arahkan pada repositori-nya.
+
 •	Maka perubahan akan terlihat pada laman tersebut.
 
 ![image](https://user-images.githubusercontent.com/56479448/72219269-c4a85280-3576-11ea-995b-91a083ccaa84.png)
