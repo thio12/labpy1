@@ -71,8 +71,7 @@ Membuat Repository Local
 
 ![image](https://user-images.githubusercontent.com/56479448/72219178-b73e9880-3575-11ea-8dd3-f8644fc9fe1f.png)
 
-
-![image](https://user-images.githubusercontent.com/56479448/72259666-98a6d300-3643-11ea-98de-5e6ccda537cc.png)
+![image](https://user-images.githubusercontent.com/56479448/72262500-a65f5700-3649-11ea-84bd-2dcd9551801b.png)
 
 
 •	Repository baru berhasil di inisialisasi, dengan terbentuknya satu direktori hidden dengan nama .git
@@ -96,8 +95,7 @@ Menambahkan File baru pada repository
 •	File README.md berhasil dibuat.
 
 
-![image](https://user-images.githubusercontent.com/56479448/72259861-0eab3a00-3644-11ea-9056-355ecd72ee16.png)
-
+![image](https://user-images.githubusercontent.com/56479448/72262599-d4449b80-3649-11ea-9774-fe750b675a2f.png)
 
 
 
