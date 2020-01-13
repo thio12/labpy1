@@ -42,18 +42,23 @@ Membuat Repository Local
 
 
 
-•	Buka direktory aktif, misal: d:\labs_pemrograman2 (buka menggunakan Windows Explorer)
+•	Buka direktory aktif, misal: d:\labs_pemrograman1 (buka menggunakan Windows Explorer)
 
 •	klik kanan pada direktory aktif tersebut, dan pilih menu Git Bash, sehingga muncul git bash commad
 
-•	Buat direktory project praktikum pertama dengan nama latihan2
+•	Buat direktory project praktikum pertama dengan nama latihan1
 
-![image](https://user-images.githubusercontent.com/56479448/72219171-a5f58c00-3575-11ea-8212-50f1a7522c43.png)
+
+![image](https://user-images.githubusercontent.com/56479448/72258630-246b3000-3641-11ea-81f4-dd25fb7af78a.png)
+
+
 
 •	Sehingga terbentuk satu direktori baru dibawahnya, selanjutnya masuk kedalam direktori tersebut dengan perintah cd (change directory)
 
-•	direktory aktif menjadi: d:\labs_pemrograman2\latihan2
+•	direktory aktif menjadi: d:\labs_pemrograman\latihan1
 
+
+![image](https://user-images.githubusercontent.com/56479448/72259161-55983000-3642-11ea-8fc9-e3c6b20b62e9.png)
 
 
 Membuat Repository Local
@@ -63,6 +68,10 @@ Membuat Repository Local
 •	Jalankan perintah git init, untuk membuat repository local.
 
 ![image](https://user-images.githubusercontent.com/56479448/72219178-b73e9880-3575-11ea-8dd3-f8644fc9fe1f.png)
+
+
+![image](https://user-images.githubusercontent.com/56479448/72259666-98a6d300-3643-11ea-98de-5e6ccda537cc.png)
+
 
 •	Repository baru berhasil di inisialisasi, dengan terbentuknya satu direktori hidden dengan nama .git
 
@@ -76,13 +85,17 @@ Menambahkan File baru pada repository
 
 •	Untuk membuat file dapat menggunakan text editor, lalu menyimpan filenya pada direktori aktif (repository)
 
-•	disini kita akan coba buat satu file bernama README2.md (text file)
+•	disini kita akan coba buat satu file bernama README.md (text file)
 
-![image](https://user-images.githubusercontent.com/56479448/72219186-cb829580-3575-11ea-8ef0-4ecac46d5ba9.png)
 
-•	File README2.md berhasil dibuat.
+![image](https://user-images.githubusercontent.com/56479448/72259737-c5f38100-3643-11ea-80fd-b51f2e513562.png)
 
-![image](https://user-images.githubusercontent.com/56479448/72219191-dccba200-3575-11ea-8af1-06eb7e6b5c77.png)
+
+•	File README.md berhasil dibuat.
+
+
+![image](https://user-images.githubusercontent.com/56479448/72259861-0eab3a00-3644-11ea-9056-355ecd72ee16.png)
+
 
 
 
@@ -92,26 +105,14 @@ Menambahkan File baru pada repository
 
 •	Untuk menambahkan file yang baru saja dibuat tersebut gunakan perintah git add.
 
-![image](https://user-images.githubusercontent.com/56479448/72219197-ee14ae80-3575-11ea-9f54-64e0d09175e0.png)
-
-File README2.md berhasil ditambahkan.
-
-![image](https://user-images.githubusercontent.com/56479448/72219201-0389d880-3576-11ea-9d77-579757d7505e.png)
+![image](https://user-images.githubusercontent.com/56479448/72260126-b4f73f80-3644-11ea-8c41-cf06884fe108.png)
 
 
 
-Commit (Menyimpan perubahan ke database)
+File README.md berhasil ditambahkan.
 
 
-
-•	Untuk menyimpan perubahan yang ada kedalam database repository local, gunakan perintah git commit -m “komentar commit”
-
-![image](https://user-images.githubusercontent.com/56479448/72219213-274d1e80-3576-11ea-8035-2400de919926.png)
-
-•	Perubahan berhasil disimpan.
-
-![image](https://user-images.githubusercontent.com/56479448/72219224-4350c000-3576-11ea-86ab-53c0af787ef1.png)
-
+![image](https://user-images.githubusercontent.com/56479448/72260734-123fc080-3646-11ea-8a81-536bdf58b813.png)
 
 
 Membuat repository server
@@ -134,11 +135,13 @@ Membuat repository server
 
 
 
-•	Isi nama repositorynya, misal: Pemrograman
+•	Isi nama repositorynya, misal: Labpy1
 
 •	lalu klik tombol Create repository
 
-![image](https://user-images.githubusercontent.com/56479448/72219242-7004d780-3576-11ea-9e8c-0e2c107ac0b9.png)
+
+![image](https://user-images.githubusercontent.com/56479448/72261386-4c5d9200-3647-11ea-99b7-a3378f200cf8.png)
+
 
 
 
@@ -150,7 +153,7 @@ Menambahkan Remote Repository
 
 •	Untuk menambahkan remote repository server, gunakan perintah git remote add origin [url]
 
-![image](https://user-images.githubusercontent.com/56479448/72219246-83b03e00-3576-11ea-82e4-d9e31ff91f95.png)
+![image](https://user-images.githubusercontent.com/56479448/72261686-dc034080-3647-11ea-84d0-9d5f23db8f1b.png)
 
 
 
@@ -164,7 +167,8 @@ Push (Mengirim perubahan ke server)
 
 •	Perintah ini akan meminta memasukkan username dan password pada akun github.com
 
-![image](https://user-images.githubusercontent.com/56479448/72219262-ae01fb80-3576-11ea-8ad8-612c6b0d1c1b.png)
+
+![image](https://user-images.githubusercontent.com/56479448/72261921-68156800-3648-11ea-8287-5766c9edddf4.png)
 
 
 
@@ -176,17 +180,4 @@ Melihat hasilnya pada server repository
 
 •	Maka perubahan akan terlihat pada laman tersebut.
 
-![image](https://user-images.githubusercontent.com/56479448/72219269-c4a85280-3576-11ea-995b-91a083ccaa84.png)
-
-
-
-Clone Repository
-
-
-
-•	Clone repository, pada dasarnya adalah meng-copy repository server dan secara otomatis membuat satu direktory sesuai dengan 
-nama repositorynya (working directory).
-
-•	Untuk melakukan cloning, gunakan perintah git clone [url]
-
-![image](https://user-images.githubusercontent.com/56479448/72219271-d1c54180-3576-11ea-9b12-79829b04c461.png)
+![image](https://user-images.githubusercontent.com/56479448/72262148-e5d97380-3648-11ea-9a0d-4c76d6738806.png)
