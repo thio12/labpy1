@@ -168,8 +168,7 @@ Push (Mengirim perubahan ke server)
 •	Perintah ini akan meminta memasukkan username dan password pada akun github.com
 
 
-![image](https://user-images.githubusercontent.com/56479448/72261921-68156800-3648-11ea-8287-5766c9edddf4.png)
-
+![image](https://user-images.githubusercontent.com/56479448/72262993-96944280-364a-11ea-81d1-1d548b98909d.png)
 
 
 Melihat hasilnya pada server repository
